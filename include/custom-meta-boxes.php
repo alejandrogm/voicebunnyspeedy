@@ -111,7 +111,7 @@ function save_project_data($id, $script){
 
 function create_speedy_project($title, $script){
 
-	global $vbUser, vbToken;
+	global $vbUser, $vbToken;
 
 	$voicebunnyUser = $vbUser;
 	$voicebunnyToken = $vbToken;
