@@ -31,7 +31,7 @@ function create_meta_box_voiceproject() {
    }
 }
 
-// 
+// Create the WordPress custom post type metaboxes
 function show_meta_box_voiceproject() {
 	
 	global $post, $meta_boxes_voiceproject, $key_voiceproject, $chuck_script;
@@ -95,7 +95,7 @@ function show_meta_box_voiceproject() {
 
 }
 
-//* 
+//* Save project data in WordPress
 function save_project_data($id, $script){
 
 	global $post, $key_voiceproject, $meta_boxes_voiceproject;
@@ -150,6 +150,7 @@ function create_speedy_project($title, $script){
 }
 
 //* Send speedy project request creation
+
 function send_speedy_project_request(){
 
 	global $post, $chuck_script;

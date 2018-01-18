@@ -2,7 +2,7 @@
 
 With this plugin you can create a VoiceBunny Speedy test using WordPress.
 
-## How to install and active the plugin
+## How to install and activate the plugin
 
 1. Clone this repository in the /wp-content/plugins/ folder in your WordPress installation
 2. Activate the plugin from your WordPress dashboard
