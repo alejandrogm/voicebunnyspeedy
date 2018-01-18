@@ -2,6 +2,9 @@
 
 $chuck_script = get_chuck_random_quote();
 
+$vbUser = 'xx';
+$vbToken = 'xx';
+
 /* Custom meta boxes for Voice Speedy Projects
 --------------------------------------------- */
 
@@ -108,8 +111,10 @@ function save_project_data($id, $script){
 
 function create_speedy_project($title, $script){
 
-	$voicebunnyUser = 'xxx';
-	$voicebunnyToken = 'xxx';
+	global $vbUser, vbToken;
+
+	$voicebunnyUser = $vbUser;
+	$voicebunnyToken = $vbToken;
 	$url_api = 'https://api.voicebunny.com/projects/addSpeedy';
 
 	$postVars = array(
