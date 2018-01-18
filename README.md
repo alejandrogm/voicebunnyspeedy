@@ -6,7 +6,7 @@ With this plugin you can create a VoiceBunny Speedy test using WordPress.
 
 1. Clone this repository in the /wp-content/plugins/ folder in your WordPress installation
 2. Activate the plugin from your WordPress dashboard
-3. Go to plugin editor and setup your User and Token for the Voice Bunny API in the file: /include/custom-meta-boxes.php
+3. Go to plugin editor and setup your User and Token for the Voice Bunny API in the file: /include/conf.php
 
 ## How to create a project
 

@@ -1,9 +1,11 @@
 <?php
 
+//* VoiceBunny API configuration
+require_once( 'conf.php' );
+
+//* Execute function to get Script from the Chuck Norris API
 $chuck_script = get_chuck_random_quote();
 
-$vbUser = 'xx';
-$vbToken = 'xx';
 
 /* Custom meta boxes for Voice Speedy Projects
 --------------------------------------------- */
