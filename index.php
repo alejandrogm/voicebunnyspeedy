@@ -75,20 +75,20 @@ function show_speedy_project_content(){
 		
 		$project_id = $data_voiceproject['project_id']['name'];
 
-		// $embed_url = get_voiceproject_url_player($project_id);
+		$embed_url = get_voiceproject_url_player($project_id);
 
 		echo '<p><strong>Project Script</strong>: ' .  $project_script . '</p>';
 		echo '<p><strong>Project ID</strong>: ' . $project_id . '</p>';
 
-		/* echo '<audio controls>
+		echo '<audio controls>
   				<source src="$embed_url;" type="audio/ogg">
   				Your browser does not support the audio tag.
-			</audio>'; */
-
-		echo '<audio controls>
-  				<source src="https://voicebunny.s3.amazonaws.com/sandbox/low_test.mp3" type="audio/ogg">
-  				Your browser does not support the audio tag.
 			</audio>';
+
+		// echo '<audio controls>
+  // 				<source src="https://voicebunny.s3.amazonaws.com/sandbox/low_test.mp3" type="audio/ogg">
+  // 				Your browser does not support the audio tag.
+		// 	</audio>';
 		
 
 	}

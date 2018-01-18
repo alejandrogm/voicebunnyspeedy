@@ -122,7 +122,7 @@ function create_speedy_project($title, $script){
 	$postVars = array(
 		'title' => $title,
 		'script' => $script,
-		'test' => 1
+		// 'test' => 1
 	);
 
 	$vars = http_build_query($postVars);
